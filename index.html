@@ -1,0 +1,511 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Primary meta -->
+  <title>Mokshith Balidi — Forward Deployed AI Engineer</title>
+  <meta name="description"
+    content="Mokshith Balidi — Forward Deployed AI Engineer specializing in AI agents, RAG systems, and production backend services. Portfolio, experience, projects and research.">
+  <meta name="author" content="Mokshith Balidi">
+  <meta name="theme-color" content="#0e0e10">
+
+  <!-- Open Graph / Twitter -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Mokshith Balidi — Forward Deployed AI Engineer">
+  <meta property="og:description"
+    content="AI agents, RAG systems & production backend engineering. Explore my projects, experience and research.">
+  <meta property="og:image" content="./assets/images/mokshith.jpeg">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Mokshith Balidi — Forward Deployed AI Engineer">
+  <meta name="twitter:description" content="AI agents, RAG systems & production backend engineering.">
+  <meta name="twitter:image" content="./assets/images/mokshith.jpeg">
+
+  <!-- Favicon -->
+  <link rel="icon" href="./assets/images/favicon.svg" type="image/svg+xml">
+  <link rel="alternate icon" href="./assets/images/logo.ico" type="image/x-icon">
+
+  <!-- Theme bootstrap: set theme before paint to avoid flash -->
+  <script>
+    (function () {
+      try {
+        var stored = localStorage.getItem("theme");
+        var theme = stored || (window.matchMedia("(prefers-color-scheme: light)").matches ? "light" : "dark");
+        document.documentElement.setAttribute("data-theme", theme);
+      } catch (e) { }
+    })();
+  </script>
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&family=Space+Grotesk:wght@400;500;600;700&display=swap"
+    rel="stylesheet">
+</head>
+
+<body>
+
+  <!-- ===================================================== MAIN -->
+  <main>
+
+    <!-- ===================================================== SIDEBAR -->
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+        <figure class="avatar-box">
+          <img src="./assets/images/mokshith.jpeg" alt="Mokshith Balidi" width="80">
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="Mokshith Balidi">Mokshith Balidi</h1>
+          <p class="title">Forward Deployed AI Engineer</p>
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn aria-label="Show contact information">
+          <span>Show Contacts</span>
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+            <div class="icon-box"><ion-icon name="mail-outline"></ion-icon></div>
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+              <a href="mailto:mokshithbalidi@gmail.com" class="contact-link">mokshithbalidi@gmail.com</a>
+            </div>
+          </li>
+
+          <li class="contact-item">
+            <div class="icon-box"><ion-icon name="phone-portrait-outline"></ion-icon></div>
+            <div class="contact-info">
+              <p class="contact-title">Phone</p>
+              <a href="tel:+916300283558" class="contact-link">+91 63002 83558</a>
+            </div>
+          </li>
+
+          <li class="contact-item">
+            <div class="icon-box"><ion-icon name="location-outline"></ion-icon></div>
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+              <address>Hyderabad, India</address>
+            </div>
+          </li>
+
+          <li class="contact-item">
+            <div class="icon-box"><ion-icon name="briefcase-outline"></ion-icon></div>
+            <div class="contact-info">
+              <p class="contact-title">Open to</p>
+              <span class="contact-plain">AI / Backend Engineering</span>
+            </div>
+          </li>
+
+        </ul>
+
+        <div class="separator"></div>
+
+        <ul class="social-list">
+          <li class="social-item">
+            <a href="https://www.linkedin.com/in/mokshithbalidi" target="_blank" rel="noopener" class="social-link"
+              aria-label="LinkedIn">
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+          </li>
+          <li class="social-item">
+            <a href="https://github.com/Bmokshith2406" target="_blank" rel="noopener" class="social-link"
+              aria-label="GitHub">
+              <ion-icon name="logo-github"></ion-icon>
+            </a>
+          </li>
+          <li class="social-item">
+            <a href="mailto:mokshithbalidi@gmail.com" class="social-link" aria-label="Email">
+              <ion-icon name="mail-outline"></ion-icon>
+            </a>
+          </li>
+        </ul>
+
+        <a href="./assets/Mokshith-Balidi-Resume.pdf" download class="resume-download-btn">
+          <ion-icon name="download-outline"></ion-icon>
+          <span>Download Résumé</span>
+        </a>
+
+      </div>
+
+    </aside>
+
+    <!-- ===================================================== MAIN CONTENT -->
+    <div class="main-content">
+
+      <!-- ===================================================== NAVBAR -->
+      <nav class="navbar">
+        <ul class="navbar-list">
+          <li class="navbar-item">
+            <button class="navbar-link active" data-nav-link>
+              <ion-icon name="person-outline"></ion-icon><span>About</span>
+            </button>
+          </li>
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>
+              <ion-icon name="document-text-outline"></ion-icon><span>Resume</span>
+            </button>
+          </li>
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>
+              <ion-icon name="albums-outline"></ion-icon><span>Portfolio</span>
+            </button>
+          </li>
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>
+              <ion-icon name="flask-outline"></ion-icon><span>Research</span>
+            </button>
+          </li>
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>
+              <ion-icon name="chatbubble-outline"></ion-icon><span>Contact</span>
+            </button>
+          </li>
+        </ul>
+      </nav>
+
+      <!-- ===================================================== ABOUT -->
+      <article class="about active" data-page="about">
+        <div class="article-scroll">
+
+        <header>
+          <h2 class="h2 article-title">About Me</h2>
+        </header>
+
+        <section class="about-text">
+          <p>
+            I'm a <strong>Forward Deployed AI Engineer</strong> based in Hyderabad, building LLM-powered automation,
+            RAG systems, tool-driven agent workflows, and production backend services. I enjoy taking an idea from a
+            blank repo to a reliable, deployed system. I enjoy every part — the retrieval, the structured generation,
+            the execution, and all the failure recovery and observability that makes it trustworthy in production.
+          </p>
+          <p>
+            I've shipped enterprise AI systems spanning semantic search, structured generation, execution, validation,
+            and reporting — and independently built an AI test automation platform I demonstrated to
+            <strong>8 QA organizations</strong>. I work day-to-day in Python, FastAPI, LangGraph, React, MongoDB, Redis
+            and GCP, with a bias toward rapid prototyping, rigorous evaluation, and clean deployment.
+          </p>
+        </section>
+
+        <!-- stats -->
+        <section class="stats">
+          <ul class="stats-list">
+            <li class="stat-item">
+              <p class="stat-value" data-count="8">8</p>
+              <p class="stat-label">QA orgs demoed to</p>
+            </li>
+            <li class="stat-item">
+              <p class="stat-value" data-count="150" data-suffix="+">150+</p>
+              <p class="stat-label">Users served (ApnaWEB)</p>
+            </li>
+            <li class="stat-item">
+              <p class="stat-value" data-count="20" data-suffix="+">20+</p>
+              <p class="stat-label">Backend services shipped</p>
+            </li>
+            <li class="stat-item">
+              <p class="stat-value" data-count="1">1</p>
+              <p class="stat-label">Published paper</p>
+            </li>
+          </ul>
+        </section>
+
+        <!-- what i'm doing -->
+        <section class="service">
+          <h3 class="h3 service-title">What I'm Doing</h3>
+          <ul class="service-list">
+
+            <li class="service-item">
+              <div class="service-icon-box"><ion-icon name="sparkles-outline"></ion-icon></div>
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">AI Agents &amp; LLM Systems</h4>
+                <p class="service-item-text">
+                  Agent design and scaling with LangGraph &amp; LangChain — tool use, structured generation,
+                  evaluation and guardrails.
+                </p>
+              </div>
+            </li>
+
+            <li class="service-item">
+              <div class="service-icon-box"><ion-icon name="search-outline"></ion-icon></div>
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">RAG &amp; Semantic Search</h4>
+                <p class="service-item-text">
+                  Retrieval pipelines end-to-end: ingestion, embeddings, relevance filtering, context construction
+                  and LLM-assisted generation.
+                </p>
+              </div>
+            </li>
+
+            <li class="service-item">
+              <div class="service-icon-box"><ion-icon name="server-outline"></ion-icon></div>
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Production Backend</h4>
+                <p class="service-item-text">
+                  FastAPI &amp; Node microservices on GCP Cloud Run — Docker, CI/CD, retries, failure recovery and
+                  observability.
+                </p>
+              </div>
+            </li>
+
+            <li class="service-item">
+              <div class="service-icon-box"><ion-icon name="bar-chart-outline"></ion-icon></div>
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">ML &amp; Data</h4>
+                <p class="service-item-text">
+                  Forecasting and predictive modelling with Python — feature engineering, LSTM/XGBoost, EDA and
+                  evaluation.
+                </p>
+              </div>
+            </li>
+
+          </ul>
+        </section>
+
+        <!-- where i've worked -->
+        <section class="clients">
+          <h3 class="h3 clients-title">Where I've Worked</h3>
+          <ul class="clients-list has-scrollbar" data-orgs></ul>
+        </section>
+
+      </div>
+      </article>
+
+      <!-- ===================================================== RESUME -->
+      <article class="resume" data-page="resume">
+        <div class="article-scroll">
+
+        <header>
+          <h2 class="h2 article-title">Resume</h2>
+        </header>
+
+        <!-- experience -->
+        <section class="timeline">
+          <div class="title-wrapper">
+            <div class="icon-box"><ion-icon name="briefcase-outline"></ion-icon></div>
+            <h3 class="h3">Experience</h3>
+          </div>
+
+          <ol class="timeline-list" data-experience></ol>
+        </section>
+
+        <!-- education -->
+        <section class="timeline">
+          <div class="title-wrapper">
+            <div class="icon-box"><ion-icon name="school-outline"></ion-icon></div>
+            <h3 class="h3">Education</h3>
+          </div>
+
+          <ol class="timeline-list" data-education></ol>
+        </section>
+
+        <!-- skills -->
+        <section class="skill">
+          <h3 class="h3 skills-title">Technical Skills</h3>
+          <ul class="skillset-list" data-skills></ul>
+        </section>
+
+      </div>
+      </article>
+
+      <!-- ===================================================== PORTFOLIO -->
+      <article class="portfolio" data-page="portfolio">
+        <div class="article-scroll">
+
+        <header>
+          <h2 class="h2 article-title">Portfolio</h2>
+        </header>
+
+        <section class="projects">
+
+          <ul class="filter-list">
+            <li class="filter-item"><button class="active" data-filter-btn>All</button></li>
+            <li class="filter-item"><button data-filter-btn>AI &amp; ML</button></li>
+            <li class="filter-item"><button data-filter-btn>Web &amp; Backend</button></li>
+            <li class="filter-item"><button data-filter-btn>Data &amp; Analytics</button></li>
+            <li class="filter-item"><button data-filter-btn>Blockchain</button></li>
+          </ul>
+
+          <div class="filter-select-box">
+            <button class="filter-select" data-select aria-label="Filter projects by category">
+              <div class="select-value" data-select-value>All</div>
+              <div class="select-icon"><ion-icon name="chevron-down"></ion-icon></div>
+            </button>
+            <ul class="select-list">
+              <li class="select-item"><button data-select-item>All</button></li>
+              <li class="select-item"><button data-select-item>AI &amp; ML</button></li>
+              <li class="select-item"><button data-select-item>Web &amp; Backend</button></li>
+              <li class="select-item"><button data-select-item>Data &amp; Analytics</button></li>
+              <li class="select-item"><button data-select-item>Blockchain</button></li>
+            </ul>
+          </div>
+
+          <ul class="project-list" data-project-list></ul>
+
+        </section>
+      </div>
+      </article>
+
+      <!-- ===================================================== RESEARCH -->
+      <article class="research" data-page="research">
+        <div class="article-scroll">
+
+        <header>
+          <h2 class="h2 article-title">Research</h2>
+        </header>
+
+        <section class="research-section">
+          <ul class="research-list">
+
+            <li class="research-item">
+              <div class="research-card">
+                <div class="research-badge">
+                  <ion-icon name="document-text-outline"></ion-icon>
+                  <span>Publication</span>
+                </div>
+                <h3 class="h3 research-title">
+                  Failure-Aware Prompt Refinement for Automated Unit Test Generation with Large Language Models
+                </h3>
+                <p class="research-venue">
+                  <ion-icon name="podium-outline"></ion-icon>
+                  Presented at <strong>ICTMSD 2026</strong> · International Conference
+                </p>
+                <p class="research-text">
+                  A method for improving LLM-generated unit tests by feeding execution failures back into an iterative
+                  prompt-refinement loop — the generator learns from compilation and assertion failures to produce
+                  higher-quality, verifier-passing tests. This work underpins the failure-recovery and bounded-repair
+                  design of my AI Test Automation Platform.
+                </p>
+                <ul class="research-tags">
+                  <li>LLMs</li>
+                  <li>Automated Testing</li>
+                  <li>Prompt Engineering</li>
+                  <li>Failure Recovery</li>
+                </ul>
+              </div>
+            </li>
+
+          </ul>
+        </section>
+
+        <section class="research-section">
+          <h3 class="h3 skills-title">Interests</h3>
+          <ul class="research-tags interests">
+            <li>Agentic AI &amp; Orchestration</li>
+            <li>Retrieval-Augmented Generation</li>
+            <li>LLM Evaluation &amp; Reliability</li>
+            <li>Self-Healing Automation</li>
+            <li>AI Security</li>
+            <li>Graph Engineering</li>
+          </ul>
+        </section>
+
+      </div>
+      </article>
+
+      <!-- ===================================================== CONTACT -->
+      <article class="contact" data-page="contact">
+        <div class="article-scroll">
+
+        <header>
+          <h2 class="h2 article-title">Contact</h2>
+        </header>
+
+        <section class="mapbox" data-mapbox>
+          <figure>
+            <iframe
+              src="https://maps.google.com/maps?q=Hyderabad,India&z=11&output=embed"
+              width="400" height="300" loading="lazy" title="Hyderabad, India"
+              referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </figure>
+        </section>
+
+        <section class="contact-form">
+          <h3 class="h3 form-title">Get in Touch</h3>
+          <p class="form-note">
+            Have a role, a project, or an idea? Send me a note — the form opens your mail app, or reach me directly at
+            <a href="mailto:mokshithbalidi@gmail.com">mokshithbalidi@gmail.com</a>
+          </p>
+
+          <form class="form" data-form>
+            <div class="input-wrapper">
+              <input type="text" name="fullname" class="form-input" placeholder="Full name" required data-form-input>
+              <input type="email" name="email" class="form-input" placeholder="Email address" required data-form-input>
+            </div>
+            <textarea name="message" class="form-input" placeholder="Your message" required data-form-input></textarea>
+            <button class="form-btn" type="submit" disabled data-form-btn>
+              <ion-icon name="paper-plane-outline"></ion-icon>
+              <span>Send Message</span>
+            </button>
+          </form>
+        </section>
+
+      </div>
+      </article>
+
+    </div>
+
+  </main>
+
+  <!-- ===================================================== PROJECT MODAL -->
+  <div class="modal-container" data-modal-container>
+    <div class="overlay" data-overlay></div>
+    <section class="project-modal">
+
+      <button class="modal-close-btn" data-modal-close-btn aria-label="Close">
+        <ion-icon name="close-outline"></ion-icon>
+      </button>
+
+      <div class="modal-cover" data-modal-cover>
+        <ion-icon data-modal-icon name="cube-outline"></ion-icon>
+      </div>
+
+      <div class="modal-thumbs" data-modal-thumbs hidden></div>
+
+      <div class="modal-content">
+        <p class="modal-category" data-modal-category>Category</p>
+        <h3 class="h3 modal-title" data-modal-title>Project title</h3>
+        <p class="modal-tagline" data-modal-tagline></p>
+
+        <div class="modal-body" data-modal-body></div>
+
+        <div class="modal-highlights" data-modal-highlights></div>
+
+        <ul class="modal-tech" data-modal-tech></ul>
+
+        <div class="modal-links" data-modal-links></div>
+      </div>
+
+    </section>
+  </div>
+
+  <!-- Floating theme toggle -->
+  <button class="theme-fab" data-theme-toggle aria-label="Toggle light and dark theme" title="Toggle theme">
+    <ion-icon name="moon-outline" class="icon-moon"></ion-icon>
+    <ion-icon name="sunny-outline" class="icon-sun"></ion-icon>
+  </button>
+
+  <!-- Scripts -->
+  <script src="./assets/js/script.js"></script>
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
