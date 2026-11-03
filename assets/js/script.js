@@ -86,7 +86,7 @@ const PROJECTS = [
     imageFit: "contain",
     body: [
       "An intelligent, script-first AI platform for automated software testing across web, mobile and desktop. It combines deterministic test execution with bounded LLM reasoning to autonomously assist with test creation, failure analysis and step-level self-healing.",
-      "A knowledge-driven, RAG-based architecture reuses validated test logic, execution history and repair insights, while verifier-gated execution keeps everything auditable and CI/CD-compatible."
+      "A knowledge driven, RAG based architecture reuses validated test logic, execution history and repair insights, while verifier gated execution keeps everything auditable and CI/CD-compatible."
     ],
     highlights: [
       "Turns requirements into structured test cases and executable scripts across web, mobile & desktop",
@@ -108,8 +108,8 @@ const PROJECTS = [
     cover: "ai",
     tagline: "Semantic search & LLM enrichment for test cases.",
     body: [
-      "A FastAPI backend for storing, enriching, searching and maintaining software test cases and their linked Playwright scripts. It replaces spreadsheet sprawl and brittle keyword search with embedding-based semantic retrieval, and uses a configurable LLM for enrichment, de-duplication, query expansion and reranking.",
-      "Built production-first: JWT auth with role-based access (viewer / editor / admin), audit logging, background ingestion jobs, Redis-backed search caching with namespace invalidation, fail-fast startup validation, Prometheus-style metrics and health probes — with pluggable LLM (Gemini / OpenAI / Anthropic / local) and embedding backends (MiniLM / MPNet / BGE)."
+      "A FastAPI backend for storing, enriching, searching and maintaining software test cases and their linked Playwright scripts. It replaces spreadsheet sprawl and brittle keyword search with embedding based semantic retrieval, and uses a configurable LLM for enrichment, de-duplication, query expansion and reranking.",
+      "Built production-first: JWT auth with role-based access (viewer / editor / admin), audit logging, background ingestion jobs, Redis-backed search caching with namespace invalidation, fail-fast startup validation, Prometheus style metrics and health probes, with pluggable LLM (Gemini / OpenAI / Anthropic / local) and embedding backends (MiniLM / MPNet / BGE)."
     ],
     highlights: [
       "Embedding-based semantic search over test cases (MongoDB vector index)",
@@ -133,8 +133,8 @@ const PROJECTS = [
     images: ["./assets/images/projects/etw-genai-monitor/architecture.png"],
     imageFit: "contain",
     body: [
-      "A real-time performance-diagnostics and automated Root Cause Analysis platform for Windows, built on low-level Event Tracing for Windows (ETW) telemetry and multivariate causal inference. Instead of just reporting symptoms (CPU/RAM alarms), it identifies the actual processes responsible for a performance regression.",
-      "For each incident window it ranks processes by a causal confidence score combining robust Z-score and Mahalanobis anomaly detection, energy-contribution attribution, and temporal correlation — then sends the evidence to Google Gemini to generate a human-readable RCA report (summary, causal explanation, impact, remediation), surfaced live in a React dashboard. The system is read-only and non-invasive."
+      "A real-time performance diagnostics and automated Root Cause Analysis platform for Windows, built on low-level Event Tracing for Windows (ETW) telemetry and multivariate causal inference. Instead of just reporting symptoms (CPU/RAM alarms), it identifies the actual processes responsible for a performance regression.",
+      "For each incident window it ranks processes by a causal confidence score combining robust Z-score and Mahalanobis anomaly detection, energy-contribution attribution, and temporal correlation, then sends the evidence to Google Gemini to generate a human understandable RCA report (summary, causal explanation, impact, remediation), surfaced live in a React dashboard. The system is read-only and non-invasive."
     ],
     highlights: [
       "Kernel-level ETW telemetry with rolling statistical baselines & spike detection",
@@ -154,13 +154,13 @@ const PROJECTS = [
     cat: "ai & ml",
     icon: "globe-outline",
     cover: "ai",
-    tagline: "AI that turns your inputs into a personal website — beyond the résumé.",
+    tagline: "AI that turns your inputs into a personal website beyond the resume.",
     body: [
-      "ApnaWEB reimagines the job application: instead of a static résumé, it turns structured user inputs into personalized portfolio websites and résumés through automated generation and publishing.",
-      "I designed the full pipeline — ingestion, generation, templating and deployment — delivering personalized assets to 150+ users."
+      "ApnaWEB reimagines the job application: instead of a static resume, it turns structured user inputs into personalized portfolio websites and resumes through automated generation and publishing.",
+      "I designed the full pipeline that includes ingestion, generation, templating and deployment, delivering personalized assets to 150+ users."
     ],
     highlights: [
-      "AI-powered generation of personal sites & résumés from structured inputs",
+      "AI-powered generation of personal sites & resumes from structured inputs",
       "End-to-end ingestion → generation → templating → deployment pipeline",
       "Delivered personalized assets to 150+ users"
     ],
@@ -180,7 +180,7 @@ const PROJECTS = [
     tagline: "20+ independently deployable backend services on GCP Cloud Run.",
     body: [
       "A cloud-native platform of 20+ independently deployable backend services supporting property, tenant, maintenance, media, geographic and access-control workflows.",
-      "Built scalable REST services on GCP Cloud Run with multi-region deployment, health checks, environment configuration and service-to-service communication — and debugged the hard production issues: authentication, container ports, quotas, regional deployment and distributed connectivity."
+      "Built scalable REST services on GCP Cloud Run with multi-region deployment, health checks, environment configuration and service-to-service communication and debugged the hard production issues: authentication, regional deployment and distributed connectivity and many more."
     ],
     highlights: [
       "20+ independently deployable microservices",
@@ -200,7 +200,7 @@ const PROJECTS = [
     tagline: "Personalized, data-driven tax planning & estimation.",
     body: [
       "ApnaTAX rethinks tax planning: leveraging technology and data analytics to give individuals personalized, comprehensive tax estimation instead of generic filing that misses deductions and exemptions.",
-      "The goal is to simplify tax planning and help people optimize their liabilities — starting with income-tax approximation and expanding toward full personalized planning."
+      "The goal is to simplify tax planning and help people optimize their liabilities starting with income-tax approximation and expanding toward full personalized planning."
     ],
     highlights: [
       "Personalized income-tax estimation",
@@ -243,7 +243,7 @@ const PROJECTS = [
     tagline: "88%-accurate student dropout prediction with Flask.",
     body: [
       "A comprehensive dropout analysis on a synthetic dataset, built with Flask and classic HTML/CSS. Beyond presenting the analysis, it offers a live prediction tool.",
-      "By inputting details such as birthplace, area of residence, religion and caste, users get a graduate-vs-dropout prediction from a model reaching 88% accuracy on the dataset."
+      "By inputting details such as birthplace, area of residence, religion and caste, users get a graduate vs dropout prediction from a model reaching 88% accuracy on the dataset."
     ],
     highlights: [
       "Prediction model at 88% accuracy",
@@ -264,7 +264,7 @@ const PROJECTS = [
     cover: "data",
     tagline: "EDA & statistical analysis of global university rankings.",
     body: [
-      "An exploratory data analysis of the World University Rankings dataset — using EDA, statistical analysis and visualization to surface trends, relationships and the key factors influencing rankings.",
+      "An exploratory data analysis of the World University Rankings dataset using EDA, statistical analysis and visualization to surface trends, relationships and the key factors influencing rankings.",
       "The insights help universities improve, guide policymakers, and assist students in making informed educational choices."
     ],
     highlights: [
@@ -285,8 +285,8 @@ const PROJECTS = [
     cover: "web",
     tagline: "Full-stack MERN inventory tracking & orders.",
     body: [
-      "A web-based MERN solution that streamlines and automates inventory tracking for businesses — managing stock levels, processing orders and maintaining essential inventory data through a responsive React interface.",
-      "A Node/Express backend handles server requests and business logic, while MongoDB enables flexible storage and real-time tracking — minimizing human error and scaling with the business."
+      "A web-based MERN solution that streamlines and automates inventory tracking for businesses managing stock levels, processing orders and maintaining essential inventory data through a responsive React interface.",
+      "A Node/Express backend handles server requests and business logic, while MongoDB enables flexible storage and real-time tracking minimizing human error and scaling with the business."
     ],
     highlights: [
       "Real-time stock & order tracking",
@@ -307,7 +307,7 @@ const PROJECTS = [
     cover: "web",
     tagline: "Campus recruitment platform connecting students & employers.",
     body: [
-      "A placement platform that streamlines campus recruitment: students build detailed profiles (academics, skills, résumés) while employers post openings and company profiles.",
+      "A placement platform that streamlines campus recruitment: students build detailed profiles (academics, skills, resumes) while employers post openings and company profiles.",
       "It includes application management, online assessments and interview scheduling, plus reports and analytics on placement statistics, student performance and employer engagement."
     ],
     highlights: [
